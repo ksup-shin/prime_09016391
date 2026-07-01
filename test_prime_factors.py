@@ -1,0 +1,53 @@
+from prime_factors import PrimeFactor
+
+
+def test_prime_factor_of_1():
+    prime_factor = PrimeFactor()
+    assert prime_factor.of(1) == []
+
+def test_prime_factor_of_2():
+    prime_factor = PrimeFactor()
+    assert prime_factor.of(2) == [2]
+
+def test_prime_factor_of_3():
+    prime_factor = PrimeFactor()
+    assert prime_factor.of(3) == [3]
+
+def test_prime_factor_of_4():
+    prime_factor = PrimeFactor()
+    assert prime_factor.of(4) == [2, 2]
+
+def test_prime_factor_of_5():
+    prime_factor = PrimeFactor()
+    assert prime_factor.of(5) == [5]
+
+def test_prime_factor_of_6():
+    prime_factor = PrimeFactor()
+    assert prime_factor.of(6) == [2, 3]
+
+def test_prime_factor_of_7():
+    prime_factor = PrimeFactor()
+    assert prime_factor.of(7) == [7]
+
+def test_prime_factor_of_8():
+    prime_factor = PrimeFactor()
+    assert prime_factor.of(8) == [2, 2, 2]
+
+def test_prime_factor_of_9():
+    prime_factor = PrimeFactor()
+    assert prime_factor.of(9) == [3, 3]
+
+def test_prime_factor_of_10():
+    prime_factor = PrimeFactor()
+    assert prime_factor.of(10) == [2, 5]
+
+def test_prime_factor_of_11():
+    prime_factor = PrimeFactor()
+    assert prime_factor.of(11) == [11]
+
+def test_prime_factor_of_12():
+    prime_factor = PrimeFactor()
+    assert prime_factor.of(12) == [2, 2, 3]
+
+
+
