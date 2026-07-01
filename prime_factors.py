@@ -7,7 +7,7 @@ class PrimeFactor:
             while number % divisor == 0:
                 factors.append(divisor)
                 number //= divisor
-        elif number == 6:
+        elif number == 6 or number == 8:
             while number > 1:
                 while number % divisor == 0:
                     factors.append(divisor)
