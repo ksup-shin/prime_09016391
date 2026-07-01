@@ -33,5 +33,10 @@ def test_prime_factor_of_8():
     prime_factor = PrimeFactor()
     assert prime_factor.of(8) == [2, 2, 2]
 
+def test_prime_factor_of_9():
+    prime_factor = PrimeFactor()
+    assert prime_factor.of(9) == [3, 3]
+
+
 
 
